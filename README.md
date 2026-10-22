@@ -3,6 +3,7 @@
 **Built by Abhinav A V**
 
 A local, privacy-friendly AI agent for **Identity & Access Management (IAM)** and cybersecurity. It runs on your own machine, answers IAM questions (SailPoint, OAuth/OIDC/SAML, PAM, Zero Trust, QA automation), and ships with practical security tools. It can also answer general questions when a local LLM (Ollama) is connected.
+<img width="902" height="852" alt="image" src="https://github.com/user-attachments/assets/8aa14f55-8bac-45d0-9b41-e9bd45ccb8c0" />
 
 ## Features
 - **RAG knowledge base** (BM25 search over Markdown files in `knowledge/`) - works with no AI model installed
@@ -55,16 +56,7 @@ python -m unittest discover -s tests -v
 - Add SoD rules in `agent/tools.py` (`SOD_RULES`)
 - Add new slash commands in `agent/core.py`
 
-## Push to GitHub
-```bash
-git init
-git add .
-git commit -m "Initial commit: IAM Copilot by Abhinav A V"
-git branch -M main
-git remote add origin https://github.com/<your-username>/iam-copilot.git
-git push -u origin main
-```
-(Create the empty repo `iam-copilot` on github.com first, without a README.)
+
 
 ## Disclaimer
 Educational/portfolio project. Knowledge-base answers are summaries; verify against vendor documentation before production decisions. The JWT tool does not verify signatures.
