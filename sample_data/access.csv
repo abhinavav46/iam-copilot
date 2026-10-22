@@ -1,0 +1,12 @@
+user,entitlement,manager,last_login
+alice,create_vendor,bob,2026-10-15
+alice,approve_payment,bob,2026-10-15
+charlie,developer,dave,2026-10-18
+charlie,prod_admin,dave,2026-10-18
+erin,submit_expense,frank,2026-03-02
+gina,read_reports,,2026-10-01
+henry,read_reports,frank,2026-10-19
+henry,crm_user,frank,2026-10-19
+henry,hr_view,frank,2026-10-19
+henry,billing_view,frank,2026-10-19
+henry,vpn,frank,2026-10-19

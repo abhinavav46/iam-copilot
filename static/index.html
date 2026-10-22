@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IAM Copilot | Built by Abhinav A V</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header>
+    <div><h1>IAM Copilot</h1><p>Local Identity &amp; Access Management AI agent</p></div>
+    <span id="status" class="pill">checking...</span>
+  </header>
+  <div id="log" aria-live="polite"></div>
+  <div class="chips">
+    <button class="chip" data-q="What is SoD?">What is SoD?</button>
+    <button class="chip" data-q="Explain aggregation and correlation in SailPoint">SailPoint aggregation</button>
+    <button class="chip" data-q="OAuth vs OIDC vs SAML">OAuth vs OIDC vs SAML</button>
+    <button class="chip" data-q="How do I test an IAM application in UAT?">IAM UAT testing</button>
+    <button class="chip" data-q="/password Summer2024!">/password</button>
+  </div>
+  <div class="row">
+    <input id="msg" placeholder="Ask about IAM, security, testing... or anything" autocomplete="off">
+    <button id="send">Send</button>
+  </div>
+  <div class="row tools">
+    <label class="btn">Upload access CSV<input type="file" id="f-access" accept=".csv" hidden></label>
+    <label class="btn">Upload auth-log CSV<input type="file" id="f-logs" accept=".csv" hidden></label>
+  </div>
+  <footer>Built by Abhinav A V</footer>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
